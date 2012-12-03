@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B611A0C8166CC36B00896A3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B611A0C7166CC36B00896A3B /* UIKit.framework */; };
+		B611A0CA166CC36B00896A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B611A0C9166CC36B00896A3B /* Foundation.framework */; };
+		B611A0CC166CC36B00896A3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B611A0CB166CC36B00896A3B /* CoreGraphics.framework */; };
+		B611A0D2166CC36B00896A3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B611A0D0166CC36B00896A3B /* InfoPlist.strings */; };
+		B611A0D4166CC36B00896A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B611A0D3166CC36B00896A3B /* main.m */; };
+		B611A0D8166CC36B00896A3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B611A0D7166CC36B00896A3B /* AppDelegate.m */; };
+		B611A0DA166CC36B00896A3B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B611A0D9166CC36B00896A3B /* Default.png */; };
+		B611A0DC166CC36B00896A3B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B611A0DB166CC36B00896A3B /* Default@2x.png */; };
+		B611A0DE166CC36B00896A3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B611A0DD166CC36B00896A3B /* Default-568h@2x.png */; };
+		B611A0E1166CC36C00896A3B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B611A0DF166CC36C00896A3B /* MainStoryboard.storyboard */; };
+		B611A0E4166CC36C00896A3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B611A0E3166CC36C00896A3B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B611A0C3166CC36B00896A3B /* SecretShakeNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretShakeNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B611A0C7166CC36B00896A3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B611A0C9166CC36B00896A3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B611A0CB166CC36B00896A3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B611A0CF166CC36B00896A3B /* SecretShakeNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretShakeNotes-Info.plist"; sourceTree = "<group>"; };
+		B611A0D1166CC36B00896A3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B611A0D3166CC36B00896A3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B611A0D5166CC36B00896A3B /* SecretShakeNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretShakeNotes-Prefix.pch"; sourceTree = "<group>"; };
+		B611A0D6166CC36B00896A3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B611A0D7166CC36B00896A3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B611A0D9166CC36B00896A3B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B611A0DB166CC36B00896A3B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B611A0DD166CC36B00896A3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B611A0E0166CC36C00896A3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B611A0E2166CC36C00896A3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B611A0E3166CC36C00896A3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B611A0C0166CC36B00896A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B611A0C8166CC36B00896A3B /* UIKit.framework in Frameworks */,
+				B611A0CA166CC36B00896A3B /* Foundation.framework in Frameworks */,
+				B611A0CC166CC36B00896A3B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B611A0B8166CC36B00896A3B = {
+			isa = PBXGroup;
+			children = (
+				B611A0CD166CC36B00896A3B /* SecretShakeNotes */,
+				B611A0C6166CC36B00896A3B /* Frameworks */,
+				B611A0C4166CC36B00896A3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B611A0C4166CC36B00896A3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B611A0C3166CC36B00896A3B /* SecretShakeNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B611A0C6166CC36B00896A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B611A0C7166CC36B00896A3B /* UIKit.framework */,
+				B611A0C9166CC36B00896A3B /* Foundation.framework */,
+				B611A0CB166CC36B00896A3B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B611A0CD166CC36B00896A3B /* SecretShakeNotes */ = {
+			isa = PBXGroup;
+			children = (
+				B611A0D6166CC36B00896A3B /* AppDelegate.h */,
+				B611A0D7166CC36B00896A3B /* AppDelegate.m */,
+				B611A0DF166CC36C00896A3B /* MainStoryboard.storyboard */,
+				B611A0E2166CC36C00896A3B /* ViewController.h */,
+				B611A0E3166CC36C00896A3B /* ViewController.m */,
+				B611A0CE166CC36B00896A3B /* Supporting Files */,
+			);
+			path = SecretShakeNotes;
+			sourceTree = "<group>";
+		};
+		B611A0CE166CC36B00896A3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B611A0CF166CC36B00896A3B /* SecretShakeNotes-Info.plist */,
+				B611A0D0166CC36B00896A3B /* InfoPlist.strings */,
+				B611A0D3166CC36B00896A3B /* main.m */,
+				B611A0D5166CC36B00896A3B /* SecretShakeNotes-Prefix.pch */,
+				B611A0D9166CC36B00896A3B /* Default.png */,
+				B611A0DB166CC36B00896A3B /* Default@2x.png */,
+				B611A0DD166CC36B00896A3B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B611A0C2166CC36B00896A3B /* SecretShakeNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B611A0E7166CC36C00896A3B /* Build configuration list for PBXNativeTarget "SecretShakeNotes" */;
+			buildPhases = (
+				B611A0BF166CC36B00896A3B /* Sources */,
+				B611A0C0166CC36B00896A3B /* Frameworks */,
+				B611A0C1166CC36B00896A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretShakeNotes;
+			productName = SecretShakeNotes;
+			productReference = B611A0C3166CC36B00896A3B /* SecretShakeNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B611A0BA166CC36B00896A3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ricardo Funk";
+			};
+			buildConfigurationList = B611A0BD166CC36B00896A3B /* Build configuration list for PBXProject "SecretShakeNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B611A0B8166CC36B00896A3B;
+			productRefGroup = B611A0C4166CC36B00896A3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B611A0C2166CC36B00896A3B /* SecretShakeNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B611A0C1166CC36B00896A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B611A0D2166CC36B00896A3B /* InfoPlist.strings in Resources */,
+				B611A0DA166CC36B00896A3B /* Default.png in Resources */,
+				B611A0DC166CC36B00896A3B /* Default@2x.png in Resources */,
+				B611A0DE166CC36B00896A3B /* Default-568h@2x.png in Resources */,
+				B611A0E1166CC36C00896A3B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B611A0BF166CC36B00896A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B611A0D4166CC36B00896A3B /* main.m in Sources */,
+				B611A0D8166CC36B00896A3B /* AppDelegate.m in Sources */,
+				B611A0E4166CC36C00896A3B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B611A0D0166CC36B00896A3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B611A0D1166CC36B00896A3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B611A0DF166CC36C00896A3B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B611A0E0166CC36C00896A3B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B611A0E5166CC36C00896A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B611A0E6166CC36C00896A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B611A0E8166CC36C00896A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretShakeNotes/SecretShakeNotes-Prefix.pch";
+				INFOPLIST_FILE = "SecretShakeNotes/SecretShakeNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B611A0E9166CC36C00896A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretShakeNotes/SecretShakeNotes-Prefix.pch";
+				INFOPLIST_FILE = "SecretShakeNotes/SecretShakeNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B611A0BD166CC36B00896A3B /* Build configuration list for PBXProject "SecretShakeNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B611A0E5166CC36C00896A3B /* Debug */,
+				B611A0E6166CC36C00896A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B611A0E7166CC36C00896A3B /* Build configuration list for PBXNativeTarget "SecretShakeNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B611A0E8166CC36C00896A3B /* Debug */,
+				B611A0E9166CC36C00896A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B611A0BA166CC36B00896A3B /* Project object */;
+}
